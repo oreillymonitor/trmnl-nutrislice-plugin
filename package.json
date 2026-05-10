@@ -1,0 +1,23 @@
+{
+  "name": "trmnl-nutrislice",
+  "version": "1.0.1",
+  "description": "This repository automatically fetches and parses school lunch menus from Nutrislice and serves them as a JSON payload for TRMNL displays.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oreillymonitor/trmnl-nutrislice-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oreillymonitor/trmnl-nutrislice-plugin/issues"
+  },
+  "homepage": "https://github.com/oreillymonitor/trmnl-nutrislice-plugin#readme",
+  "dependencies": {
+    "axios": "^1.16.0"
+  }
+}

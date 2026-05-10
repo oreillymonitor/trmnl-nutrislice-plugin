@@ -1,0 +1,23 @@
+- keyname: district
+  name: District Subdomain
+  description: Find your school at https://lookup.nutrislice.com/. The district is the part before .nutrislice.com in the URL.
+  help_text: "Example: for neptune.nutrislice.com, use: neptune"
+  field_type: text
+- keyname: school
+  name: School ID
+  description: The last part of your school's menu URL.
+  help_text: "Example: for /menu/midtown-community, use: midtown-community"
+  field_type: text
+- keyname: meal_type
+  name: Meal Type
+  description: Select which menu to display.
+  field_type: select
+  options:
+    - lunch
+    - breakfast
+- keyname: author_bio
+  name: Nutrislice Lunch Menu
+  field_type: author_bio
+  description: "Displays your school's daily lunch menu directly from Nutrislice. Report issues via GitHub."
+  github_url: "https://github.com/oreillymonitor/trmnl-nutrislice-plugin"
+  category: education, calendar
